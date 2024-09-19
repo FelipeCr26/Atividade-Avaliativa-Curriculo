@@ -37,42 +37,102 @@ dd {
 #menu img {
     width: 250px;
     height: 250px;
-    border-radius: 450px;
-    padding: 15px;
+    border-radius: 200px;
+    margin-left: 20px;
 }
 
 #menu h1 {
-    font-size: 40px;
-    padding-left: 20px;
+    font-size: 50px;
+    padding-left: 40px;
+    font-family: "Inter", sans-serif;
 }
 
 #menu h2 {
-    font-size: 18px;
-    padding-left: 20px
+    font-size: 20px;
+    padding-left: 40px;
+    font-family: "Inter", sans-serif;
 }
 
 #menu h3 {
-    padding-left: 150px;
+    padding-left: 50px;
     text-align: right;
+    font-family: "Inter", sans-serif;
 }
 
 #container {
     width: 1000px;
     background-color: blue;
     display: flex;
-    grid-template-columns: auto auto;
-    margin: 0 auto;
     align-items: center;
-    
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: auto;
 }
+
 .sobre-mim {
     width: 900px;
     height: auto;
-    background-color: aqua;
+    background-color: rgb(224, 226, 226);
     margin: 0 auto;
     padding-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.sobre-mim h1 {
+    padding-left: 10px;
+    font-size: 50px;
 }
 
 .sobre-mim p {
-    padding-top: 20px;
+    margin: 10px;
+}
+
+hr {
+    border: 1px solid rgb(255, 60, 0);
+    width: 900px;
+}
+
+#experiencias {
+    width: 900px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    margin: 0 auto;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+#experiencias h1 {
+    font-size: 28px;
+    margin: 10px;
+}
+
+#experiencias h2 {
+    margin: 10px;
+}
+
+#experiencias h3 {
+    margin: 10px;
+}
+
+#experiencias h4 {
+    padding-left: 10px;
+}
+
+#rodape {
+    width: 900px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    grid-template-columns: auto auto;
+    gap: 235px;
+    margin: 0 auto;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 10px;
+}
+
+#rodape h1 {
+    margin: 10px;
 }
