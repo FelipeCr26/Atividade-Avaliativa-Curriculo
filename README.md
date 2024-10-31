@@ -158,22 +158,6 @@ Navegue para a pasta raiz do usuário e crie uma pasta chamada `apps` com o coma
 ```sh
 mkdir apps
 ```
-ubuntu@ip-172-31-17-194:~$ cd apps
-ubuntu@ip-172-31-17-194:~/apps$ git clone https://github.com/FelipeCr26/Atividade-Avaliativa-Curriculo.git site-curriculo
-Cloning into 'site-curriculo'...
-remote: Enumerating objects: 16, done.
-remote: Counting objects: 100% (16/16), done.
-remote: Compressing objects: 100% (15/15), done.
-remote: Total 16 (delta 4), reused 13 (delta 1), pack-reused 0 (from 0)
-Receiving objects: 100% (16/16), 167.13 KiB | 2.88 MiB/s, done.
-Resolving deltas: 100% (4/4), done.
-ubuntu@ip-172-31-17-194:~/apps$ ls
-site-curriculo
-ubuntu@ip-172-31-17-194:~/apps$ cd site-curriculo
-ubuntu@ip-172-31-17-194:~/apps/site-curriculo$ ls
-assets  index.html  styles.css
-ubuntu@ip-172-31-17-194:~/apps/site-curriculo$ cd /etc/nginx/sites-available
-ubuntu@ip-172-31-17-194:/etc/nginx/sites-available$
 
 
 8.1 Copiando os arquivos via SCP
