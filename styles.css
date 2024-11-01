@@ -23,6 +23,19 @@ dd {
 
 }
 
+#container {
+    width: 1000px;
+    background: #231557;
+    background: -moz-linear-gradient(135deg, #231557 0%, #ff1361 50%, #fff800 100%);
+    background: -webkit-linear-gradient(135deg, #231557 0%, #ff1361 50%, #fff800 100%);
+    background: linear-gradient(135deg, #231557 0%, #ff1361 50%, #fff800 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: auto;
+}
 
 #menu {
     width: 1000px;
@@ -38,40 +51,39 @@ dd {
     background: linear-gradient(to right, #360940 0%, #f05f57 100%);
     margin: 0 auto;
     display: flex;
-    grid-template-columns: auto auto;
+    grid-template-columns: 30% 40% 30%;
     align-items: center;
     color: #f0ffff;
+    padding: 40px;
 }
 
 #menu img {
     width: 250px;
     height: 250px;
     border: 5px solid rgb(255, 255, 255);
-    border-radius: 150px;
-    margin-left: 20px;
-
+    border-radius: 100%;
 }
 
-#menu h1 {
+#nome h1 {
     font-size: 50px;
-    padding-left: 40px;
+    padding-left: 20px; 
     font-family: "Inter", sans-serif;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
-#menu h2 {
+#nome h2 {
     font-size: 20px;
-    padding-left: 40px;
+    padding-left: 20px;
     font-family: "Inter", sans-serif;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
-#menu h3 {
+#contato h3 {
     padding-left: 50px;
-    text-align: right;
+    text-align: left;
     font-family: "Inter", sans-serif;
     text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
-   
+
 }
 
 a {
@@ -82,20 +94,6 @@ a {
 a:hover {
     color: #f13050;
     text-decoration: underline rgb(255, 255, 255);
-}
-
-#container {
-    width: 1000px;
-    background: #231557;
-    background: -moz-linear-gradient(135deg, #231557 0%, #ff1361 50%, #fff800 100%);
-    background: -webkit-linear-gradient(135deg, #231557 0%, #ff1361 50%, #fff800 100%);
-    background: linear-gradient(135deg, #231557 0%, #ff1361 50%, #fff800 100%);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    height: auto;
 }
 
 .sobre-mim {
@@ -133,22 +131,22 @@ hr {
     width: 900px;
     background-color: rgb(245, 245, 245);
     display: grid;
-    margin: 0 auto;
     font-family: "Inter", sans-serif;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
     background: #f3f0e9;
     background: #f1ebdd;
     background: -moz-linear-gradient(to right, #f1ebdd 0%, #daccd8 100%);
     background: -webkit-linear-gradient(to right, #f1ebdd 0%, #daccd8 100%);
     background: linear-gradient(to right, #f1ebdd 0%, #daccd8 100%);
-    
+
 }
 
 #experiencias h1 {
     font-size: 28px;
     margin: 10px;
     color: #9c0d31;
-    
+
 }
 
 #experiencias h2 {
@@ -177,7 +175,8 @@ hr {
     font-family: "Inter", sans-serif;
     padding-bottom: 30px;
     color: #9c0d31;
-    font-weight: 700;;
+    font-weight: 700;
+    ;
     background: #f3f0e9;
     background: #f1ebdd;
     background: -moz-linear-gradient(to right, #f1ebdd 0%, #daccd8 100%);
@@ -186,5 +185,6 @@ hr {
 }
 
 #rodape h1 {
-    margin: 10px;
+    margin: 15px;
 }
+
